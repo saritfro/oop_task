@@ -1,4 +1,8 @@
-package Version1;
+package version1.pets;
+/**
+ * Abstract class representing a generic Pet.
+ * This class provides common properties and methods for all pets.
+ */
 
 public abstract class Pet {
     private String name;
@@ -41,7 +45,18 @@ public abstract class Pet {
                 ", age=" + age +
                 ", species='" + species + "', ";
     }
-
+    /**
+     * Abstract method to be implemented by subclasses.
+     * Represents the sound the pet makes.
+     *
+     * @return a string representing the pet's sound
+     */
     public abstract String makeSound() ;
+    /**
+     * Abstract method to be implemented by subclasses.
+     * Represents what the pet eats.
+     *
+     * @return a string describing the pet's food
+     */
     public abstract String eat() ;
 }

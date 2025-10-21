@@ -1,4 +1,6 @@
-package Version1;
+package version1.veterinarians;
+import version1.pets.Pet;
+
 import java.util.Scanner;
 
 public class GeneralVeterinarian implements Veterinarian {

@@ -1,7 +1,9 @@
-package Version1;
+package version1.veterinarians;
+import version1.pets.Pet;
+
 import java.util.Scanner;
 
-public class SpecialistVeterinarian implements Veterinarian{
+public class SpecialistVeterinarian implements Veterinarian {
     Scanner input = new Scanner(System.in);
     private String specialty;
 

@@ -1,4 +1,11 @@
-package Version1;
+package version1;
+
+import version1.pets.Cat;
+import version1.pets.Dog;
+import version1.pets.Pet;
+import version1.veterinarians.GeneralVeterinarian;
+import version1.veterinarians.SpecialistVeterinarian;
+import version1.veterinarians.Veterinarian;
 
 import java.util.ArrayList;
 import java.util.List;

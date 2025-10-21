@@ -1,4 +1,4 @@
-package Version1;
+package version1.pets;
 
 public class Dog extends Pet {
     private String breed;
